@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Week 3 - Semantic HTML, Media, Accessibility</title>
+</head>
+<body>
+
+  <header>
+    <h1>Week 3 - Semantic HTML and Page Organization</h1>
+  </header>
+
+  <nav>
+    <p>
+      <!-- nav usually contains links to important sections of the site -->
+      <a href="index.html">Home</a> |
+      <a href="articles.html">Articles</a> |
+      <a href="contact.html">Contact</a>
+    </p>
+  </nav>
+
+  <main>
+
+    <!-- 1. Recap of Week 2 -->
+  
+
+    <!-- 2. Semantic HTML -->
+    <section id="semantic">
+      <h2>1. Semantic HTML Layout</h2>
+      <p>
+        This page uses semantic elements from the slides:
+        &lt;header&gt;, &lt;nav&gt;, &lt;main&gt;, &lt;section&gt;, &lt;article&gt;, &lt;aside&gt;, and &lt;footer&gt;.
+      </p>
+
+      <article>
+        <h3>Sample Article</h3>
+        <p>This article is a self-contained piece of content on the page.</p>
+      </article>
+
+      <aside>
+        <p>This aside contains extra information related to the article.</p>
+      </aside>
+
+    </section>
+
+    <!-- 3. Embedding Media -->
+    <section id="media">
+      <h2>2. Embedding Media: Images, Audio, Video, Iframes</h2>
+      <p>The examples below use the media tags described in the Week 3 slides.</p>
+
+      <h3>Image with alt text (&lt;img&gt;)</h3>
+      <img src="images/course-logo.png" alt="Thrive course logo">
+
+      <h3>Audio with controls (&lt;audio&gt;)</h3>
+      <audio src="media/example-audio.mp3" controls>
+        Your browser does not support the audio element.
+      </audio>
+
+      <h3>Video with controls (&lt;video&gt;)</h3>
+      <video src="media/example-video.mp4" width="320" height="180" controls>
+        Your browser does not support the video tag.
+      </video>
+
+      <h3>Embedded page (&lt;iframe&gt;)</h3>
+      <iframe src="https://www.example.com"
+              width="320"
+              height="200"
+              title="Example site">
+      </iframe>
+    </section>
+
+    <!-- 4. Accessibility Basics -->
+    <section id="accessibility">
+      <h2>3. Accessibility Basics in HTML</h2>
+      <p>These examples follow the accessibility best practices in the slides.</p>
+
+      <h3>Alt text for images</h3>
+      <p>Image with a meaningful <code>alt</code> description:</p>
+      <img src="images/city.jpg" alt="Skyline of the city at sunset">
+
+      <h3>Form labels</h3>
+      <form>
+        <p>
+          <label for="name">Name:</label>
+          <input id="name" type="text" name="name">
+        </p>
+        <p>
+          <label for="email">Email:</label>
+          <input id="email" type="email" name="email">
+        </p>
+      </form>
+
+      <h3>Structured headings</h3>
+      <h1>News</h1>
+      <h2>Course Announcements</h2>
+      <h3>Week 3 Session</h3>
+      <p>This heading structure shows a clear outline for screen readers.</p>
+
+      <h3>Descriptive link text</h3>
+      <p>
+        Read more on our
+        <a href="about.html">About Us page</a>.
+      </p>
+    </section>
+
+    <!-- 5. Relative vs Absolute Paths -->
+    <section id="paths">
+      <h2>4. Using Relative vs Absolute Paths</h2>
+      <p>These links and image paths follow the definitions in the slides.</p>
+
+      <h3>Absolute path (full URL)</h3>
+      <p>
+        <a href="https://www.example.com/articles/semantic-html.html">
+          Semantic HTML article on example.com
+        </a>
+      </p>
+
+      <h3>Relative paths inside the project</h3>
+      <p>
+        <a href="semantic-html.html">Local Semantic HTML page</a>
+      </p>
+      <p>
+        <img src="images/photo.jpg" alt="Photo stored in the images folder">
+      </p>
+    </section>
+
+    <!-- 6. Clean, Organized HTML Code -->
+    <section id="clean-code">
+      <h2>5. Clean, Organized HTML Code</h2>
+      <!-- This section demonstrates indentation, comments, and simple structure. -->
+      <p>
+        Open this file in your editor to inspect:
+      </p>
+      <ul>
+        <li>Consistent indentation for nested elements.</li>
+        <li>Comments like this one to mark sections.</li>
+        <li>Simple, readable structure that matches the Week 3 outline.</li>
+      </ul>
+      <p>
+        Exercise: add your own comment above one of the sections and keep the
+        indentation style the same.
+      </p>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>End of Week 3 HTML exercise file.</p>
+  </footer>
+
+</body>
+</html>
