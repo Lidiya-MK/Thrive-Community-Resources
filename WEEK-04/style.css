@@ -1,0 +1,143 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+/* HEADINGS */
+.main-title {
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+/* COLORS */
+.text-color {
+    color: blue;
+}
+
+.background-example {
+    background-color: lightgreen;
+}
+
+.bg-image {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5EbV9gzM7FwA5KlB3qQ7Si2j5XaT2NnE8tWHGPDkyzqsdQVK9fWp-OzdBWLxTMSKzh43Y8EFaSRNZJddy8aaLqk0jwNr4tOpkTWltTTQ&s=10");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 150px;
+    color: wheat;
+    font-size: large;
+    background-color: black;
+}
+
+/* TEXT & FONTS */
+.font-example {
+    font-size: 22px;
+    font-family: "Courier New", monospace;
+}
+
+.bold-text {
+    font-weight: bold;
+}
+
+.italic-text {
+    font-style: italic;
+}
+
+.decorated-text{
+    text-decoration: underline;
+    text-transform: capitalize;
+}
+
+.spacing-text {
+    letter-spacing: 3px;
+    word-spacing: 10px;
+}
+
+.aligned-text {
+    text-align: center;
+}
+
+/* UNITS */
+.px-text {
+    font-size: 20px;
+}
+
+.em-text {
+    font-size: 2em;
+}
+
+.rem-text {
+    font-size: 1.5rem;
+}
+
+.percent-box {
+    width: 50%;
+    height: 40px;
+    background-color: skyblue;
+}
+
+.vwvh-text {
+    font-size: 3vw;
+}
+
+/* DISPLAY */
+.inline-example {
+    display: inline;
+    background: lightgray;
+}
+
+.block-example {
+    display: block;
+    background: salmon;
+}
+
+.inline-block-example {
+    display: inline-block;
+    background: lightblue;
+    padding: 5px;
+}
+
+/* POSITIONING */
+.relative-box {
+    position: relative;
+    background: yellow;
+    width: 150px;
+}
+
+.absolute-box {
+    position: absolute;
+    left: 200px;
+    top: 20px;
+    background: orange;
+}
+
+/* OTHER PROPERTIES */
+.cursor-btn {
+    cursor: pointer;
+}
+
+.opacity-box {
+    background: purple;
+    opacity: 0.6;
+    color: white;
+}
+
+.shadow-text {
+    text-shadow: 2px 2px 5px gray;
+}
+
+.shadow-box {
+    width: 150px;
+    height: 50px;
+    background: white;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.4);
+}
+
+.transition-btn {
+    background: black;
+    color: white;
+    transition: background 0.5s ease;
+}
+
+.transition-btn:hover {
+    background: darkred;
+}
